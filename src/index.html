@@ -14,8 +14,8 @@
      action="https://mate-academy-form-lesson.herokuapp.com/create-application"
      method="post"
      onsubmit="onSubmit()">
-      <div class="container">
-         Personal information
+      <fieldset class="container">
+        <legend>Personal information</legend>
         <label for="Surname" class="form-field">
           Surname:
           <input
@@ -71,9 +71,10 @@
             id="terms-and-conditions"
             >
         </label>
-      </div>
+      </fieldset>
 
-      <div class="container">Registration
+      <fieldset class="container">
+        <legend>Registration</legend>
         <label for="email" class="form-field">
           E-mail:
           <input
@@ -97,9 +98,10 @@
             tabindex="1"
             >
         </label>
-      </div>
+      </fieldset>
 
-      <div class="container">An interesting fact about you!
+      <fieldset class="container">
+        <legend>An interesting fact about you!</legend>
         <label for="pats" class="form-field">
           Do you love cats?
           <input
@@ -154,9 +156,10 @@
             value="1"
             >
         </label>
-      </div>
+      </fieldset>
 
-      <div class="container">Additional info
+      <fieldset class="container">
+        <legend>Additional info</legend>
         <label for="feedback" class="form-field">
           Commets:
           <textarea
@@ -175,7 +178,7 @@
             <option value="no">No</option>
           </select>
         </label>
-      </div>
+      </fieldset>
 
       <button type="submit">Submit</button>
     </form>
