@@ -27,26 +27,26 @@
           <label for="surname">
             Surname:
             <input
-            id="surname"
-            type="text"
-            autocomplete="on"
-            name="Surname"
-            pattern="\w+"
-            required
+              id="surname"
+              type="text"
+              autocomplete="off"
+              name="surname"
+              pattern="\w+"
+              required
             >
           </label>
         </div>
 
         <div class="form-field">
-          <label for="Name">
+          <label for="name">
             Name:
             <input
               type="text"
-              name="Name"
+              name="name"
+              id="name"
               pattern="\w+"
-              autocomplete="on"
+              autocomplete="off"
               required
-              id="Name"
               >
           </label>
         </div>
@@ -70,9 +70,9 @@
           <label for="date">
             Full data of birth:
             <input
+              name="fullDataOfBirth"
               id="date"
               type="date"
-              name="FullDataOfBirth"
               required
               >
           </label>
@@ -101,7 +101,6 @@
               type="email"
               name="forEmail"
               placeholder="email@example.com"
-              autocomplete="on"
               required
               tabindex="2"
               >
@@ -115,10 +114,10 @@
               id="password"
               type="password"
               name="forPassword"
-              required
               minlength="5"
               maxlength="32"
               tabindex="1"
+              required
               >
           </label>
         </div>
